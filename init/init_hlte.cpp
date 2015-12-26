@@ -62,20 +62,20 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
 
     if (strstr(bootloader, "N900S")) {
         /* hlteskt */
-        property_set("ro.build.fingerprint", "samsung/hlteskt/hlte:4.4.2/KOT49H/N900SKSUFNH4:user/release-keys");
-        property_set("ro.build.description", "hlteskt-user 4.4.2 KOT49H N900SKSUFNH4 release-keys");
+        property_set("ro.build.fingerprint", "samsung/hlteskt/hlteskt:5.0/LRX21V/N900SKSU0GOJ2:user/release-keys");
+        property_set("ro.build.description", "hlteskt-user 5.0 LRX21V N900SKSU0GOJ2 release-keys");
         property_set("ro.product.model", "SM-N900S");
         property_set("ro.product.device", "hlteskt");
     } else if (strstr(bootloader, "N900K")) {
         /* hltektt */
-        property_set("ro.build.fingerprint", "samsung/hltektt/hlte:4.4.2/KOT49H/N900KKKUFNI1:user/release-keys");
-        property_set("ro.build.description", "hltektt-user 4.4.2 KOT49H N900KKKUFNI1 release-keys");
+        property_set("ro.build.fingerprint", "samsung/hltektt/hltektt:5.0/LRX21V/N900KKKU0GOF2:user/release-keys");
+        property_set("ro.build.description", "hltektt-user 5.0 LRX21V N900KKKU0GOF2 release-keys");
         property_set("ro.product.model", "SM-N900K");
         property_set("ro.product.device", "hltektt");
     } else {
         /* hltexx */
-        property_set("ro.build.fingerprint", "samsung/hltexx/hlte:4.4.2/KOT49H/N9005XXUENC2:user/release-keys");
-        property_set("ro.build.description", "hltexx-user 4.4.2 KOT49H N9005XXUENC2 release-keys");
+        property_set("ro.build.fingerprint", "samsung/hltexx/hlte:5.0/LRX21V/N9005XXUGBOK6:user/release-keys");
+        property_set("ro.build.description", "hltexx-user 5.0 LRX21V N9005XXUGBOK6 release-keys");
         property_set("ro.product.model", "SM-N9005");
         property_set("ro.product.device", "hltexx");
     }
